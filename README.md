@@ -8,7 +8,9 @@ It takes 4 flower measurements and predicts the species.
 pip install -r requirements.txt
 uvicorn app:app --reload
 
-## Try it
+## Try it locally
+
+After starting the server, open this in your browser:
 
 http://127.0.0.1:8000/predict?sl=5.1&sw=3.5&pl=1.4&pw=0.2
 
